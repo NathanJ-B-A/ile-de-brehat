@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>1save</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/castle.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+<!-- NAV BAR  -->
+<nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+    <div class="container footer">
+        <a class="navbar-brand" href="index.html" id="Logo">
+        <img src="assets/src/LOGO.png">
+    </a>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Topbar_BOX">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".Topbar");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+    });
+
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var scroll = $(window).scrollTop();
+      if (scroll > 75) {
+        $(".nav-link").css("color" , "black");
+      }
+
+      else{
+        $(".nav-link").css("color" , "white");
+      }
+    })
+  })
+  </script>
+<!-- END NAV BAR  -->
+
+<section class="page-content">
+
+  <div class="banner-top" style="background-image:url('assets/src/municipalite/municipalite-bg.jpg');">
+    <div class="title-page">
+      <h1>Les châteaux en Côtes d'Armor</h1>
+      <p>Comtes de Penthièvre, Vicomtes de Rohan, Barons de Quintin, d'Hunaudaye...
+          tous ont laissé en Côtes d'Armor des châteaux forts et autres monuments qui vous permettront
+          de plonger au Moyen Âge en Bretagne et d'affronter les Anglais, Français et les terribles Vikings !</p>
+    </div>
+  </div>
+
+
+<div class="content-droit">
+    <div class="title-content">
+        <h2><b>Fort La Latte</b></h2>
+    </div>
+    <div class="contenue">
+        <div class="paragraphe">
+            <p >Vaisseau de grès rose dans un site incomparable, le Fort La Latte reste avant tout un château fort.
+                Construit au XIVème siècle, le château représentait un point stratégique puisqu’il domine <b>la baie de Saint-Malo.</b></p>
+            <p>
+                Aujourd’hui, classé Monument Historique, il est ouvert aux visites en saison et est le décor de
+                nombreux films dont le célèbre <b>Vikings (1958)</b>, avec Kirk Douglas. Tous les ans au mois d’août se
+                déroulent une fête et des animations médiévales dans l’enceinte du château.
+            </p>
+            <div class="boutton" >
+                <a href="https://www.lefortlalatte.com/">  Visiter le fort  </a>
+            </div>
+        </div>
+        <div class="cadre">
+            <img src="assets/src/chateaux/chateaux%20(1).jpg">
+        </div>
+    </div>
+</div>
+
+<div class="content-gauche">
+    <div class="title-content">
+        <h2><b>Château de Dinan</b></h2>
+    </div>
+    <div class="contenue">
+        <div class="paragraphe">
+            <p >Le château de Dinan est un ensemble regroupant la porte de Guichet, la tour de Coëtquen et du Donjon.
+                Il était placé face à l'ancienne route de Rennes et relié à l'ancienne place du Champ de foire,
+                <b>il était le symbole de la force ducale.</b></p>
+            <p>
+                <b>Un musée</b> est créé en 1908 qui a réouvert cette année après rénovation. S’appuyant sur des sources historiques
+                inédites ainsi que sur l’archéologie expérimentale, la scénographie du château de Dinan assure à tous les publics
+                une immersion dans la société médiévale des XIVe et XVe siècles
+            </p>
+            <div class="boutton" >
+                <a href="https://www.chateaudedinan.fr/">  Visiter le fort  </a>
+            </div>
+        </div>
+        <div class="cadre">
+            <img src="assets/src/chateaux/chateaux%20(2).jpg">
+        </div>
+    </div>
+</div>
+
+<div class="content-droit">
+    <div class="title-content">
+        <h2><b>Château de la Roche Jagu</b></h2>
+    </div>
+    <div class="contenue">
+        <div class="paragraphe">
+            <p >Ce château du XVème siècle et son parc contemporain d'inspiration médiévale labellisé Jardin Remarquable et
+                Eco-jardin offrent aux visiteurs un lieu de découverte original où nature,
+                patrimoine et création paysagère s'associent harmonieusement.</p>
+            <p>
+                Les 74 hectares d'espaces naturels sont parcourus de sentiers de randonnée offrant un panorama unique
+                sur la vallée du Trieux. Tout au long de la saison, une programmation culturelle foisonnante vient
+                compléter l'offre culturelle du site : exposition, concerts, spectacles, cinéma en plein air, conférences et ateliers.
+            </p>
+            <div class="boutton" >
+                <a href="https://www.larochejagu.fr/">  Visiter le fort  </a>
+            </div>
+        </div>
+        <div class="cadre">
+            <img src="assets/src/chateaux/chateaux%20(3).jpg">
+        </div>
+    </div>
+</div>
+<div class="margin"></div>
+</section>
+
+<div class="parallax2">
+
+</div>
+<footer id="footer_BOX">
+    <div class="container footer">
+        <div class="row">
+            <div class="col-md-6 col-lg-8 mx-auto">
+                <ul>
+                    <li class="icone">
+                        <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                     </li>
+                    <li class="icone">
+                        <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="icone">
+                        <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+        </div>
+    </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

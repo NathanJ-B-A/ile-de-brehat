@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Mairie</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/mairie.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/municipalite/mairie-bg.jpg');">
+        <div class="title-page">
+          <h1>Mairie</h1>
+          <p>Tout savoir sur la mairie bréhatine : les élus, L’équipe municipale, l'organisation des services municipaux.</p>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Organisation des services municipaux</h2>
+          <p>Les services municipaux de l’Île-de-Bréhat ont pour mission de satisfaire les besoins quotidiens de la population. Ils sont organisés comme suit :</p>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <h3>Direction des services – organisation et contact</h3>
+            <div class="row">
+              <div class="col">
+                <h4>Service administratif</h4>
+                <p>Accueil, comptabilité, état civil</p>
+              </div>
+              <div class="col">
+                <h4>Police municipale</h4>
+                <p>Police</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h4>Service technique</h4>
+                <p>Gestion des déchets, espaces verts</p>
+              </div>
+              <div class="col">
+                <h4>Service public d'assainissement non collectif</h4>
+                <p>Spanc</p>
+              </div>
+            </div>
+            <h3>La mairie est ouverte :</h3>
+            <ul>
+              <li>le lundi, le mardi et le vendredi de <b>9h</b> à <b>12h</b> et de <b>14h</b> à <b>16h</b></li>
+              <li>le mercredi et le jeudi de <b>9h</b> à <b>12h</b>.</li>
+              <li>Fermeture le samedi et le dimanche</li>
+            </ul>
+            <p>En dehors des heures d’ouverture, et en cas d’urgence uniquement, le numéro d’astreinte est le <b>06 17 41 58 17</b>.</p>
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/municipalite/mairie.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="title-content">
+        <h2>Le maire et les élus</h2>
+      </div>
+
+      <div class="row elus">
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/olivier_carre.jpg" alt="">
+            <div class="info">
+              <h3>Olivier Carré</h3>
+              <p>Maire</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/gabrielle_conjean-prigent.jpg" alt="">
+            <div class="info">
+              <h3>Gabrielle Cojean-Prigent</h3>
+              <p>1ère adjointe</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/francois-yves_le-thomas.jpg" alt="">
+            <div class="info">
+              <h3>François-yves Le Thomas</h3>
+              <p>2ème adjoint</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row elus">
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/dominique_sicher.jpg" alt="">
+            <div class="info">
+              <h3>Dominique Sicher</h3>
+              <p>3ème adjoint</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/stephan_morlevat.jpg" alt="">
+            <div class="info">
+              <h3>Stéphan Morlevat</h3>
+              <p>Conseiller municipal délégué</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/marion_regler.jpg" alt="">
+            <div class="info">
+              <h3>Marion Régler</h3>
+              <p>Conseillère municipale</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row elus">
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/jean-philippe_outin.jpg" alt="">
+            <div class="info">
+              <h3>Jean-Philippe Outin</h3>
+              <p>Conseiller municipal</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/charlotte_pilon-le-lain.jpg" alt="">
+            <div class="info">
+              <h3>Charlotte Le Lain-Pilon</h3>
+              <p>Conseillère municipale</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/aymeric_lamy.jpg" alt="">
+            <div class="info">
+              <h3>Aymeric Lamy</h3>
+              <p>Conseiller municipal de la minorité</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row elus">
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/jean-luc_le-pache.jpg" alt="">
+            <div class="info">
+              <h3>Jean-Luc Le Pache</h3>
+              <p>Conseiller municipal de la minorité</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="elu">
+            <img src="assets/src/municipalite/mairie/dominique_thormann.jpg" alt="">
+            <div class="info">
+              <h3>Dominique Thormann</h3>
+              <p>Conseiller municipal de la minorité</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

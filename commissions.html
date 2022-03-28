@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Commissions</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/commissions.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- A suprm apres -->
+    <div class="banner-tmp"></div>
+
+    <!--END  A suprm apres -->
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/municipalite/commissions.jpg');">
+        <div class="title-page">
+          <h1>Les commissions</h1>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="title-content">
+          <h2>Commissions et représentants</h2>
+          <p>Ces commissions municipales sont des commissions d’étude. Elles émettent de simples avis et peuvent formuler des propositions mais ne disposent d’aucun pouvoir propre, le conseil municipal étant le seul compétent pour régler, par ses délibérations, les affaires de la commune.</p>
+          <p style="color:grey;">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+              <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+            </span> = élu
+          </p>
+          <p style="color:grey;">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+              <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+            </span> = représentant de la société civile
+          </p>
+          <p style="color:grey;">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x" style="color:green;"></i>
+              <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+            </span> = représentant de l’administration (départementale, judiciaire …)
+          </p>
+        </div>
+
+    <!-- CATEGORIE -->
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Finances et économie</b></h3>
+              <ul>
+                <li>Tarifs</li>
+                <li>Budgets</li>
+                <li>Comptes administratifs</li>
+                <li>Commerces et entreprises</li>
+                <li>Economie du tourisme</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> MORLEVAT Stéphan
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SICHER Dominique
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE LAIN-PILON Charlotte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Urbanisme et équipement</b></h3>
+              <ul>
+                <li>Certificats d’urbanisme</li>
+                <li>Demandes préalables</li>
+                <li>Permis de construire</li>
+                <li>Travaux</li>
+                <li>Bâtiments communaux</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> RÉGLER Marion
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> COJEAN-PRIGENT Gabrielle
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Vie sociale</b></h3>
+              <ul>
+                <li>Aides ponctuelles aux personnes</li>
+                <li>Logement</li>
+                <li>École</li>
+                <li>Personnes âgées</li>
+                <li>Associations</li>
+                <li>Jeunesse</li>
+                <li>Sport</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE LAIN-PILON Charlotte
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LABUSQUIÈRE Corinne
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> PRIGENT TENAGLIA Juliette
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> COJEAN-PRIGENT Gabrielle
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> BOCHER Marie-Odile
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE NEGARET Myriam
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> TRIMAILLE Yves
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission Communication</b></h3>
+              <ul>
+                <li>Bulletin municipal</li>
+                <li>Site internet</li>
+                <li>Page facebook</li>
+                <li>Relation avec la presse</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SICHER Dominique
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> MORLEVAT Stéphane
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission électorale</b></h3>
+              <p>Révision annuelle de la liste</p>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE LAIN-PILON Charlotte
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:green;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LAMIDON Nathalie, délégué du tribunal judiciaire
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:green;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> PELLERIN Yvon, délégué de l’administration
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission Communale des impôts directs (CCID)</b></h3>
+              <p>Evaluation des impôts directs locaux</p>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:green;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> 6 membres et six suppléants nommés par le directeur départemental des finances publiques
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Ports et activités maritimes</b></h3>
+              <ul>
+                <li>Barge / transports maritimes</li>
+                <li>Ports communaux</li>
+                <li>Projet de port</li>
+                <li>Estran</li>
+                <li>Conseil portuaire départemental</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SICHER Dominique
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE THOMAS François-Yves
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE LAIN-PILON Charlotte
+                  </p>
+                </div>
+              </div>
+              <p>Référents et suppléants des ports communaux :</p>
+              <p>Port de la Chambre :</p>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> BOCHER Jean-Michel, référent
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> DECAEN Patrick, suppléant
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> GIBOUIN Yves, référent
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> JAMBU-MERLIN Yves, suppléant
+                  </p>
+                </div>
+              </div>
+              <p>Port de la Corderie :</p>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> DAIGRE Didier, référent
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SERREAU Jacques, suppléant
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> GRAFF Antoine, référent
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> VENDEUIL Jean-Paul, suppléant
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission Environnement et agriculture</b></h3>
+              <ul>
+                <li>Agriculture</li>
+                <li>Environnement</li>
+                <li>Paysages</li>
+                <li>Assainissement</li>
+                <li>Signalétiques</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> OUTIN Jean-Philippe
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> AUFFRET Anne Laure
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> GIGNIER Pierre
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LAMY Nadya
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LEBEC Éric
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE ROLLAND Flore
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> MAERTEN Eric
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> POTTIER Ewen
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> RÉGLER Marion
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> BLASCO Laurence
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> JONIOT Daniel
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE BOUSSE André
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE MORTELLEC Moïra
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LIAGRE Céline
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> PICARD Patrick
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission P.L.U.</b></h3>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> COJEAN-PRIGENT Gabrielle
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> DAIGRE Didier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LAINÉ Annick
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> PICARD Patrick
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SIMON Henri
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> OUTIN Jean-Philippe
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> JONIOT Daniel
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE BOUSSE Hervé
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> ROUVIN Antoine
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission Logement</b></h3>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SICHER Dominique
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CHATELON Jean-Etienne
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> HARRIVEL Vony
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> JONIOT Daniel
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SIMON Henri
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> COJEAN-PRIGENT Gabrielle
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CHAGNY Morgane
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> GRAFF Virginie
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> HERMAND Patrick
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE COR Michelle
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission Art et Culture</b></h3>
+              <ul>
+                <li>Art et culture</li>
+                <li>Expositions</li>
+                <li>Événements</li>
+              </ul>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> OUTIN Jean-Philippe
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> DAIGRE Charlotte
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> FAVREAU Christiane
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> DECAEN Patrick
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> NEUMAGER Stéphane
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> MORLEVAT Stéphane
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> DE CIZANCOURT Béatrice
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> VANNINI Caroline
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LOUAIL Alain
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> ROUILLAC Paul
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Commission déchets</b></h3>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE THOMAS François-Yves
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LAMY Aymeric
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> GIGNIER Pierre
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> NORMAND Caroline
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> JONIOT DanielSIMON Henri
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> RÉGLER Marion
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> BOCHER Jean-Pierre
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LAMY Nadya
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:blue;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> PETIBON Yves
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="categorie">
+              <h3><b>Appel d’offres</b></h3>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> CARRÉ Olivier
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE LAIN-PILON Charlotte
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> LE THOMAS François-Yves
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> MORLEVAT Stéphane
+                  </p>
+                </div>
+              </div>
+              <p><b>Supléants :</b></p>
+              <div class="row">
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> COJEAN-PRIGENT Gabrielle
+                  </p>
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> RÉGLER Marion
+                  </p>
+                </div>
+                <div class="col">
+                  <p>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:red;"></i>
+                      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                    </span> SICHER Dominique
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

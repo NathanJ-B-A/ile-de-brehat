@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Demographie et Tourisme</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/demographie.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/activitesetdecouverte/demographieettourisme.jpg');">
+        <div class="title-page">
+          <h1>Démographie</h1>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Rapport de l’Insee sur la démographie sur l’île de Bréhat</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>Publié en janvier 2021 <br>
+                Pour tout savoir sur les sujets suivants :
+            </p>
+            <ul>
+                <li>Évolution et structure de la population en 2017</li>
+                <li>Couples – Familles – Ménages en 2017</li>
+                <li>Logement en 2017</li>
+                <li>Diplômes – Formation en 2017</li>
+                <li>Population active, emploi et chômage au sens du recensement en 2017</li>
+                <li>Caractéristiques de l’emploi au sens du recensement en 2017</li>
+                <li>Naissances et décès domiciliés 2014-2019</li>
+                <li>Revenus et pauvreté des ménages en 2018</li>
+                <li>Démographie des entreprises en 2019</li>
+                <li>Tourisme en 2020</li>
+            </ul>
+            <a href="https://www.insee.fr/fr/statistiques/2011101?geo=COM-22016">
+                <button class="btn btn-success">
+                    Consulter le rapport de l'INSEE
+                </button>
+            </a>
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/activitesetdecouverte/demographieettourisme/insee.jpg">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

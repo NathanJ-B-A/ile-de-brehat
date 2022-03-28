@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Services Municipaux </title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- A suprm apres -->
+    <div class="banner-tmp"></div>
+
+    <!--END  A suprm apres -->
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/municipalite/municipalite-bg.jpg');">
+        <div class="title-page">
+          <h1>Services municipaux</h1>
+          <p>Tous les services municipaux</p>
+        </div>
+      </div>
+
+      <div class="list-sub-page">
+        <div class="row">
+          <div class="col">
+            <div class="card-sub-page">
+              <div class="img"><img src="assets/src/servicesmunicipaux/formalitesadministratives.png" alt=""></div>
+              <div class="content">
+                <div class="title">Formalités administratives</div>
+                <button onclick="window.location.href='formalitesadministratives.html'" class="btn btn-success">Parcourir</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-sub-page">
+              <div class="img"><img src="assets/src/servicesmunicipaux/gestionsdechets.jpg" alt=""></div>
+              <div class="content">
+                <div class="title">Gestions des déchets</div>
+                <button onclick="window.location.href='gestionsdechets.html'" class="btn btn-success">Parcourir</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-sub-page">
+              <div class="img"><img src="assets/src/servicesmunicipaux/servicestechniques.jpg" alt=""></div>
+              <div class="content">
+                <div class="title">Services techniques</div>
+                <button onclick="window.location.href='servicestechniques.html'" class="btn btn-success">Parcourir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-sub-page">
+              <div class="img"><img src="assets/src/servicesmunicipaux/servicessante.jpg" alt=""></div>
+              <div class="content">
+                <div class="title">Services de santé</div>
+                <button onclick="window.location.href='servicessante.html'" class="btn btn-success">Parcourir</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-sub-page">
+              <div class="img"><img src="assets/src/servicesmunicipaux/ecoleetcantine.jpg" alt=""></div>
+              <div class="content">
+                <div class="title">École et cantine</div>
+                <button onclick="window.location.href='ecoleetcantine.html'" class="btn btn-success">Parcourir</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-sub-page">
+              <div class="img"><img src="assets/src/servicesmunicipaux/portsetmouillages.jpg" alt=""></div>
+              <div class="content">
+                <div class="title">Ports et mouillages</div>
+                <button onclick="window.location.href='portsetmouillages.html'" class="btn btn-success">Parcourir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

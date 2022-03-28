@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | École et Cantine</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/ecolecantine.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/servicesmunicipaux/ecoleetcantine.jpg');">
+        <div class="title-page">
+          <h1>Ecole, cantine et garderie</h1>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>L’école à Bréhat</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>L’ école primaire de Kérano accueille une trentaine d’élèves répartis en deux classes :</p>
+            <ul>
+                <li>de la maternelle au CP avec une professeur des écoles et une ATSEM</li>
+                <li>du CE1 au CM2 avec la directrice.</li>
+            </ul>
+            <p>Directrice : Madame Maud GALANT</p>
+            <p>Kerano 22870 ILE DE BREHAT</p>
+            <p>Tel : 02 96 20 02 63</p>
+            <p>Email : ecole.0221447d@ac-rennes.fr</p>
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/servicesmunicipaux/ecolecantine/school.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gauche">
+
+        <div class="title-content">
+          <h2>Les documents utiles à télécharger</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <h5><strong>Inscription à l’école primaire</strong></h5>
+            <a href="/wp-content/uploads/2020/11/Inscription-scolaire-1.pdf"><b><i><u>Dossier inscription : école primaire Kerano</u></i></b></a>
+
+            <h5><strong>La cantine</strong></h5>
+
+            Cantine scolaire : sur inscription <br>
+            Local : école du Bas <br>
+
+            <p>Nouveauté 2021 : à partir d’avril 2021, le prix du repas cantine est indexé sur votre quotient familial CAF. Pensez à vous transmettre votre attestation.</p>
+
+            <a href="/wp-content/uploads/2020/12/Dossier-inscription-cantine-scolaire.pdf"><b><i><u>Dossier inscription : cantine scolaire</u></i></b></a>
+
+            <h5><strong>La garderie</strong></h5>
+
+            Garderie périscolaire : de 16h15 à 17h30, gratuite sur inscription <br>
+            Local : école du Bas <br>
+
+            <a href="/wp-content/uploads/2020/12/Dossier-inscription-garderie-periscolaire.pdf"><b><u><i>Dossier inscription : garderie périscolaire</i></u></b></a>
+
+            <h5><strong>Les transports scolaires</strong></h5>
+
+            <p>
+                Transports scolaires sur le territoire communal : Petit Train et vedettes. Le Petit Train pour la vedette de 7h20 est exclusivement réservé aux scolaires. Inscription auprès du service AXEO :
+                <a href="https://www.axeo.bzh/se-deplacer/axeo-scolaire/"><b><i><u>https://www.axeo.bzh/se-deplacer/axeo-scolaire/</u></i></b></a>
+            </p>
+
+            <a href="/wp-content/uploads/2020/12/DEMANDE-transports-scolaires.pdf"><b><i><u>Information mairie besoins transports scolaires</u></i></b></a>
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/servicesmunicipaux/ecolecantine/Cantine.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!--Centrer au milieu et mettre l'image du menu de la cantine juste en dessous-->
+      <h2 class="titre-spec"> Les menus de la cantine (octobre 2021)</h2>
+      <!--A toi de redimensionner !-->
+      <div class="container">
+        <img src ="assets/src/servicesMunicipaux/ecolecantine/MenuOctobre.JPG" class="calendrier">
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

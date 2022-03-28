@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> <!-- Carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script> <!-- Parallax -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="Logo">
+            <img src="assets/src/LOGO.png">
+        </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Topbar_BOX">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+  <!-- END NAVBAR -->
+
+
+<!-- BANNER -->
+
+  <section class="hero-banner bg-light">
+    <img class="banner-bg" src="assets/src/banner-bg.jpg" alt="ile-de-brehat">
+    <h1>ÎLE-DE-BRÉHAT</h1>
+  </section>
+
+  <script>
+    var image = document.getElementsByClassName('banner-bg');
+    new simpleParallax(image, {
+      orientation: 'down',
+      scale: 1.7
+    });
+  </script>
+
+<!-- END BANNER -->
+
+<!-- CAROUSEL -->
+    <section class="news">
+      <h2>L'AGENDA</h2>
+
+      <div class="slider owl-carousel">
+        <div class="card">
+          <div class="img"><img src="assets/src/atelier-citrouille.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Ateliers Citrouilles</div>
+            <div class="sub-title">dimanche 31 octobre, 2021</div>
+            <p> l’amicale laïque est ravie de pouvoir proposer un atelier “citrouilles” sur la place du bourg, à 11h. Venez nombreux décorer votre citrouille. N’oubliez pas d’apporter vos cuillères et couteaux.</p>
+            <div class="btn">
+              <button class="btn-carousel" >Lire plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img"><img src="assets/src/film-docu.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Le mois du film documentaire</div>
+            <div class="sub-title">samedi 13 novembre, 2021</div>
+            <p>Cette année, avec 128 séances réparties sur 50 communes du département, le cinéma documentaire reprend sa place au plus proche des spectateurs.</p>
+            <div class="btn">
+              <button class="btn-carousel" >Lire plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img"><img src="assets/src/belote.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Concours de belote</div>
+            <div class="sub-title">vendrredi 03 décembre, 2021</div>
+            <p>Concours de belote le vendredi 3 décembre, à la salle des fêtes. Inscriptions à 20h, équipes déjà constituées. Début du concours à 20h30.</p>
+            <div class="btn">
+              <button class="btn-carousel" >Lire plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img"><img src="assets/src/athlete.jpg" alt=""></div>
+          <div class="content">
+            <div class="title">Octobre rose</div>
+            <div class="sub-title">dimanche 17 octobre, 2021</div>
+            <p>Plus d’une centaine de participants se rejoindront, ce dimanche 17 octobre, pour la marche organisée par Aurore Move et son association Sport et oxygène.</p>
+            <div class="btn">
+              <button class="btn-carousel">Lire plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        nav: true,
+        items:3,
+        navText: ["<img class='slider-nav-prev-btn' src='assets/src/prev-btn.png'>","<img class='slider-nav-next-btn' src='assets/src/next-btn.png'>"]
+      });
+    </script>
+<!-- END CAROUSEL -->
+<!-- ACTUALITE -->
+  <div class="info">
+      <h2>
+          Quoi de neuf à Bréhat ?
+      </h2>
+      <div class="container">
+          <div class="wrapper">
+              <aside class="sidebar">
+                  <h3>Acces Rapide</h3>
+                  <div class="dropdown">
+                      <button class="btn btn-success dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">
+                          Patrimoines </button>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="Resto.html">Restaurant</a>
+                          <a class="dropdown-item" href="Chateaux.html">Chateaux</a>
+                          <a class="dropdown-item" href="patrimoine.html">Patrimoines</a>
+                      </div>
+                      <button class="btn btn-success dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">
+                          Activités </button>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="culture.html">Culture</a>
+                          <a class="dropdown-item" href="sport.html">Sport</a>
+                          <a class="dropdown-item" href="campingmunicipal.html">Camping</a>
+                          <a href="http://www.brehat-infos.fr/pdf/ecogestes-sejour-visite-ot-brehat.pdf">Partagez les écogestes</a>
+                      </div>
+                  </div>
+              </aside>
+              <section class="main">
+                  <div class="container">
+                      <div class="carte">
+                          <div class="carte-in">
+                              <div class="carte-front">
+                                  <div class="carte_img">
+                                      <img src="assets/src/actu1.jpg">
+                                  </div>
+                              </div>
+
+                              <div class="carte-back">
+                                  <div class="carte_utils">
+                                      <h3>La commune reçoit la Marianne du civisme</h3>
+                                      <p>Olivier Carré, maire, s’est vu remettre, hier, la Marianne du civisme par Aimé Le Duigou.</p>
+                                      <address class="small-txt">Mairie</address>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carte">
+                          <div class="carte-in">
+                              <div class="carte-front">
+                                  <div class="carte_img">
+                                      <img src="assets/src/actu2.jpg">
+                                  </div>
+                              </div>
+
+                              <div class="carte-back">
+                                  <div class="carte_utils">
+                                      <h3>L'île aux fleurs et sans voitures</h3>
+                                      <p>C'est un joli coin de France qui attire, chaque année, de nombreux
+                                          touristes. L'île de Bréhat, en Bretagne, compte 350 habitants à l'année.</p>
+                                      <address class="small-txt">Sport</address>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carte">
+                          <div class="carte-in">
+                              <div class="carte-front">
+                                  <div class="carte_img">
+                                      <img src="assets/src/actu4.jpg">
+                                  </div>
+                              </div>
+                              <div class="carte-back">
+                                  <div class="carte_utils">
+                                      <h3>Les Verreries de Bréhat retrouvent un second souffle</h3>
+                                      <p>Deux hommes d'affaires ont racheté les actifs,
+                                          la verrerie redémarre sur de nouvelles bases. Bretagne.</p>
+                                      <address class="small-txt">Tourisme</address>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="carte">
+                          <div class="carte-in">
+                              <div class="carte-front">
+                                  <div class="carte_img">
+                                      <img src="assets/src/actu3.jpg">
+                                  </div>
+                              </div>
+
+                              <div class="carte-back">
+                                  <div class="carte_utils">
+                                      <h3>Un thon de plus de 100 kg pêché au large de Bréhat</h3>
+                                      <p>Ce mercredi 11 octobre, un pêcheur a fait une
+                                          belle prise dans la matinée, il a sorti de l’eau un thon
+                                          de 121 kg à proximité de l’archipel de Bréhat.</p>
+
+                                      <address class="small-txt">Divers</address>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </div>
+          <div class="container__">
+              <div class="container__image">
+                  <img src="assets/src/phare.jpg">
+              </div>
+              <div class="container__feature">
+                  <h2>Visiter Bréhat toute l'année</h2>
+                  <p>L’archipel de Bréhat est constitué de l’île principale et de 86 îlots et récifs voisins.
+                      Le 13 juillet 1907, Bréhat <b>fut le premier site naturel classé en France ! </b></p>
+                  <p>Longue de 3,5 kilomètres et large de 1,5 kilomètre, l'île est accessible en bateau et se visite à pied ou à vélo.
+                      En arrivant sur l'île via le débarcadère, empruntez <b>les sentiers hors des rues principales </b>qui relient le port au phare du Paon.
+                      Vous découvrirez une multitude de criques, plages et abris pour marins égarés.</p>
+                  <p>Pour découvrir l'île, optez <b>pour le printemps et l'automne :</b>
+                      le nombre de visiteurs est moins important, la météo est clémente et la nature luxuriante. </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+<!-- END ACTUALITE -->
+
+<!-- INFORMATION -->
+
+    <section class="information">
+      <div class="container infos">
+        <div class="row">
+          <div class="col-sm-8 map">
+            <h2 class="map-title"><i class="fa fa-map-marker"></i>&nbsp;Localisation :</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21003.397538344365!2d-3.0258099059558203!3d48.85011146412224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48120ffd48454b05%3A0x40ca5cd36e639e0!2zw45sZS1kZS1CcsOpaGF0!5e0!3m2!1sfr!2sfr!4v1635107950879!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-sm-4 meteo">
+            <iframe id="widget_autocomplete_preview"  width="100%" height="100%" frameborder="0" src="https://meteofrance.com/widget/prevision/220160##009975"> </iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm mail"><span class="Icone"></span>
+              <h2 class="text-start"><i class="fa fa-envelope"></i>&nbsp;Email :</h2>
+              <p class="text-start"><br>iledebrehat@mairie-brehat.fr<br><br></p>
+          </div>
+          <div class="col-sm tel">
+              <h2><span class="Icone"><i class="fa fa-phone"></i></span>&nbsp;Téléphone :</h2>
+              <p class="text-start"><br>+33&nbsp;02 96 20 00 36<br><br></p>
+          </div>
+          <div class="col-sm message"><span class="Icone"></span>
+              <h2 class="text-start"><i class="fa fa-paper-plane"></i>&nbsp;Un petit mot...</h2>
+              <button id="ouvrir_modal" type="button" class="btn open_modal" data-toggle="modal" data-target="#exampleModal">Envoyer un message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modal : message -->
+    <script>
+    $(document).ready(function(){
+        $(".open_modal").click(function(){
+            $("#exampleModal").modal('show');
+        });
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+        $(".close").click(function(){
+            $("#exampleModal").modal('hide');
+        });
+    });
+    </script>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Envoyer un message</h5>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+                <label for="nom">Entrez votre nom :</label>
+                <input type="text" class="form-control" id="nom" placeholder="Votre nom...">
+            </div>
+            <div class="form-group">
+                <label for="nom">Entrez votre prénom :</label>
+                <input type="text" class="form-control" id="prénom" placeholder="Votre prénom...">
+            </div>
+            <div class="form-group">
+                <label for="email">Entrez votre mail :</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre adresse mail...">
+            </div>
+            <div class="form-group">
+                <label for="selection">Ce que vous recherchez :</label>
+                <select id="selection" class="form-control">
+                    <option value="">Vous êtes à la recherche d'un...</option>
+                    <optgroup label="A la recherche d'un...">
+                        <option value="">Employé en CDI</option>
+                        <option value="">Employé en CDD</option>
+                        <option value="">Stagiaire</option>
+                        <option value="">Intérimaire</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bio">Entrez votre message :</label>
+                <textarea class="form-control" id="bio" rows="3" placeholder="Votre message..."></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary close" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-primary send-modal">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- END INFORMATION -->
+
+  <div class="parallax2"></div>
+
+<!-- FOOTER -->
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021|</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

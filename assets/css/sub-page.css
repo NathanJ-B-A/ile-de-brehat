@@ -1,0 +1,67 @@
+/* CONTENT */
+.contenue{
+  display: inline-flex;
+}
+
+.title-content{
+  margin: 5% 5% 2% 5%;
+}
+
+.title-content h2{
+  font-size: 250%;
+}
+
+.paragraphe{
+  width: auto;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 2%;
+}
+
+.cadre{
+  width: 60%;
+}
+
+.cadre img{
+  max-width: 100%;
+}
+/* CONTENT (END)*/
+
+/*CONTENT DROIT*/
+
+.content-droit{
+  width: 100%
+}
+
+.content-droit .cadre{
+  order: 1;
+  margin-right: 2.5%;
+}
+
+.content-droit .paragraphe{
+  order: 2;
+  margin-left: 0%;
+  width: 100%;
+}
+
+/*CONTENT DROIT (END)*/
+
+/*CONTENT GAUCHE*/
+
+.content-gauche{
+  width: 100%;
+}
+
+.content-gauche .cadre{
+  order: 2;
+  text-align: right;
+  margin-right: 0px;
+}
+
+.content-gauche .paragraphe{
+  order: 1;
+  margin-right: 2.5%;
+  width: 100%;
+
+}
+
+/*CONTENT GAUCHE (END)*/

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Sport</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/sport.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/activitesetdecouverte/sport.jpg');">
+        <div class="title-page">
+          <h1>Sport</h1>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Terrains de tennis communaux</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>Situés à l’Allegoat, les deux terrains de tennis communaux sont accessibles gratuitement.
+            Réservation en ligne sur l’application La balle jaune – commune de l’ILE DE BREHAT, choisir abonnement “visiteur”. Le nombre d’utilisateurs étant limité,
+            les abonnements sont temporaires de une à trois semaines. Les joueurs ayant réservés seront prioritaires.</p>
+            <button href="https://ballejaune.com/club/tennis-brehat" class="btn btn-success"> Balle Jaune - Commune de l'île de Bréhat</button>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/02/terrain-de-tennis-768x10246-1-edited.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gauche">
+
+        <div class="title-content">
+          <h2>Centre nautique Les Albatros</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>Situé à la plage du Guerzido, le centre nautique vous propose diverses activités nautiques :</p>
+            <ul>
+                <li>Kayak de mer</li>
+                <li>Plongée sous-marine</li>
+                <li>Voile</li>
+                <li>Découvrir l’archipel de Bréhat par la mer</li>
+            </ul>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/01/118583011_10223907921711964_4205330016693267732_o.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Sport et Oxygène</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>Vous propose diverses activités : </p>
+            <ul>
+                <li>fitness</li>
+                <li>balade en marche nordique</li>
+                <li>balade à vélo ( depuis 2020)</li>
+                <li>Stage sportif enfant</li>
+            </ul>
+            <a href="www.brehat-sports-loisirs.fr">www.brehat-sports-loisirs.fr</a>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/01/portrait.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gauche">
+
+        <div class="title-content">
+          <h2>Association des Pêcheurs Plaisanciers et Bassiers de l’île de Bréhat</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>Cette association a pour objet, dans le souci de la protection de la nature, de l’environnement et de la mise en valeur de la mer, d’œuvrer à la
+            Protection, l’organisation et la défense de la navigation de plaisance et de la pêche de plaisance sous toutes ses formes. Dans ce but elle entend :
+            promouvoir le resserrement des liens entre usagers de la mer et du domaine maritime, amateurs et professionnels.. Encourager les plaisanciers au respect
+            des règlementations en vigueur
+        </p>
+        <a href="www.appib.fr">www.appib.fr</a>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/01/logo-appib-modifie.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Terrains de boules bretonnes</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>
+            Situés sur la place du Bourg, deux terrains de boules bretonnes sont accessibles à tous. Si vous souhaitez être mis en relation avec l’association
+            Boules Bretonnes Bréhatines, vous pouvez contacter la présidente à l’adresse suivante :
+            </p>
+            <a href="mailto:juliette.tenaglia@orange.fr"> Juliette Tenaglia</a>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/02/brehat-boules-edited.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gauche">
+
+        <div class="title-content">
+          <h2>Le City</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>
+            Pour les jeunes de l’île, le terrain multisports leur permet de pratiquer des activités sportives toute l’année.
+            </p>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/01/2230805_15473575-brehmultisport2-20130912-l119d.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Baignade</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>
+            Attention : zone de baignade du Guerzido non surveillée.
+            </p>
+            <a href="https://www.iledebrehat.fr/wp-content/uploads/2021/01/BREHAT_-bilan-2020-EM22_rapport.pdf" download>Télécharger : Qualité des eaux de baignade bilan 2020 ARS</a>
+          </div>
+
+          <div class="cadre">
+            <img src="https://www.iledebrehat.fr/wp-content/uploads/2021/01/photo.1497204-1024x576.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

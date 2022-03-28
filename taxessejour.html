@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Taxes Séjour</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/culture.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/servicesmunicipaux/taxe-bg.jpg');">
+        <div class="title-page">
+          <h1>Taxes de séjour</h1>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Déclaration de la taxe de séjour</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>
+              Outre le prix d’une location,
+              passer des vacances bien méritées au soleil aura un prix : la taxe de séjour est un impôt local obligatoire pour les voyageurs de passage dans une commune où ils ne résident pas habituellement. Il varie en fonction du type d’hébergement où vous logez, mais aussi de la région ou commune en elle-même, qui décide de son montant selon les années.
+            </p>
+
+            <b>En tout premier lieu, il est important de distinguer deux types de taxes.</b>
+
+            <p>
+                <b>
+                  * La taxe de séjour au réel concerne les voyageurs non domiciliés dans la commune où ils séjournent pendant un temps. Elle sera calculée selon le nombre de nuitées, et par personne.
+                </b>
+            </p>
+
+            <p> Par exemple, le calcul de la taxe de séjour au réel sera le suivant :</p>
+
+            <p>Tarif appliqué à la catégorie d’hébergement x nombre de nuitées constaté = taxe de séjour au réel.</p>
+
+            <p>Il suffira alors de multiplier ce montant par le nombre de personnes séjournant pour avoir le montant total.</p>
+
+            <p>
+                <b>
+                  * Et une taxation proportionnelle au coût de la nuitée est désormais appliquée aux établissements non classés.
+                </b>
+            </p>
+
+            <h4><strong>La réforme de la taxe de séjour en 2019</strong></h4>
+
+            <p>
+              Depuis le 1er janvier 2019, la taxe de séjour a évolué en France. En effet, une taxation proportionnelle au coût de la nuitée est désormais appliquée aux établissements non classés ou en attente de classement. La raison ? Faire face aux nouvelles offres de location de logement, avec en ligne de mire les plateformes types Airbnb. Ainsi, à compter du 1er janvier,
+              <a href="https://www.tacotax.fr/guides/impots-locaux/taxe-de-sejour/montants-2019"><b><i><u>le montant des taxes de séjour</u></i></b></a>
+              correspond à 1 à 5 % du prix de la nuitée par personne pour les hébergements non classés.
+            </p>
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/servicesmunicipaux/taxesSejour/TS1.JPG" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-gauche">
+
+        <div class="title-content">
+          <h2>Qui doit payer la taxe de séjour ?</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>
+              La taxe de séjour est un impôt local français collecté par les logeurs et hôteliers et reversé aux collectivités locales. Ces dernières utiliseront ces taxes pour promouvoir le tourisme sur leur territoire, et ainsi booster son économie. Elle est
+              <b>obligatoire pour tous voyageurs de passage</b> et concerne de nombreux hébergements :
+            </p>
+
+            <ul>
+              <li>Les hôtels de tourisme classés et non classés, ainsi que les palaces.</li>
+              <li>Les résidences de tourisme. </li>
+              <li>Les chambres d’hôtes.</li>
+              <li>Les villages de vacances.</li>
+              <li>Les meublés de tourisme (par exemple les gîtes ruraux).</li>
+              <li>Les hébergements de plein air type camping et caravanage.</li>
+              <li>Les ports de plaisance.</li>
+            </ul>
+
+
+
+            <p>
+              Il vous est possible de vous rendre sur le site internet d’
+              <a href="https://www.economie.gouv.fr/particuliers/taxe-sejour-tarifs"><b><i><u>impots.gouv.fr</u></i></b></a>
+              pour accéder à un simulateur de taxe de séjour , afin d’avoir un meilleur aperçu du montant que vous aurez à débourser en séjournant dans telle ou telle ville en France.
+            </p>
+
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/servicesmunicipaux/taxesSejour/TS2.JPG" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Qui est exonéré de la taxe de séjour ?</h2>
+        </div>
+        <div class="contenue">
+          <div class="paragraphe">
+            <p>
+              Tous les vacanciers ou voyageurs de passage ne sont pas assujettis à cet impôt local ! Dans certains cas de figure bien précis, une exonération de la taxe de séjour est possible. Sont notamment concernés :
+          </p>
+
+            <ul>
+              <li>Les vacanciers âgés de <strong>moins de 18 ans</strong>, et de ce fait mineurs.</li>
+              <li>Les personnes employées dans la commune et titulaires d’un <strong>contrat de travail saisonnier</strong>.</li>
+              <li>Les personnes bénéficiant d’un <strong>hébergement d’urgence</strong> ou étant en situation de <strong>relogement temporaire</strong>.</li>
+              <li>Les personnes vivant dans des locaux dont le <strong>loyer ne dépasse pas un plafond</strong> fixé par le conseil municipal.</li>
+              <li>Les <strong>propriétaires de résidences secondaires</strong> dans la commune, pour laquelle ils payent déjà la taxe d’habitation.&nbsp;</li>
+              <li>Les propriétaires qui <strong>hébergent gratuitement</strong> des personnes sans compensation financière.&nbsp;</li>
+            </ul>
+
+          <p>Autrement, pour les personnes non concernées par cette liste, il faudra régler la taxe de séjour avant son départ de l’hébergement.</p>
+
+          <p>
+            À noter que pour les locataires d’un
+            <a href="https://www.tacotax.fr/guides/impots-locaux/taxe-de-sejour/quelle-taxe-de-sejour-avec-airbnb-en-france"><b><i><u>hébergement en Airbnb</u></i></b></a>
+             ou autre plateforme de réservation, la taxe de séjour est payée directement au moment de la réservation sur la plateforme. Cette dernière se chargera d’ailleurs de reverser ces taxes de séjour aux collectivités locales en tant qu’intermédiaires de paiement et pour le compte de l’hôte. Ce dernier n’aura alors pas de
+
+            <a href="https://www.tacotax.fr/guides/impots-locaux/taxe-de-sejour/declaration-taxe-de-sejour">déclaration de taxe de séjour </a>
+            à effectuer, ni de reversement de l’impôt collecté.
+          </p>
+
+          <h4>Documents à télécharger</h4>
+
+          <a href="https://www.iledebrehat.fr/wp-content/uploads/2020/11/DELIBERATION-17-03-2007-1.pdf"><b><i><u>Délibération du 17-03-2007<br></u></i></b></a>
+          <a href="https://www.iledebrehat.fr/wp-content/uploads/2021/05/registre-du-logeur-1.pdf"><b><i><u>Registre du logeur<br></u></i></b></a>
+          <a href ="https://www.iledebrehat.fr/wp-content/uploads/2021/05/Simulateur-Taxe-de-Sejour.3.xlsx"><b><i><u>Simulateur Taxe de Séjour<br></u></i></b></a>
+
+          </div>
+
+          <div class="cadre">
+            <img src="assets/src/servicesmunicipaux/taxesSejour/TS3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

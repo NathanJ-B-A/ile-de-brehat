@@ -1,0 +1,21 @@
+.info-conseil{
+  margin-top: 5%;
+}
+
+.conseil-suiv{
+  margin-top: 3%;
+  margin-left: 5%;
+  padding: 5%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.annee{
+  margin-top: 3%;
+  margin-right: 5%;
+  padding: 5%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.annee ul, .annee p{
+  text-align: left;
+}

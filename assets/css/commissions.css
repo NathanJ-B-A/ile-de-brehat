@@ -1,0 +1,14 @@
+.categorie h3, .categorie ul, .categorie p {
+  text-align: left;
+}
+
+.categorie{
+  background-color: rgba(0, 0, 0, .1);
+  padding: 3%;
+  margin-top: 5%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.categorie i{
+  transform: scale(0.7);
+}

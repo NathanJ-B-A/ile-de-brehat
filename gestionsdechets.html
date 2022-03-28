@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Île-de-Bréhat | Gestion des déchets</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/dechets.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+      <div class="banner-top" style="background-image:url('assets/src/servicesmunicipaux/gestionsdechets.jpg');">
+        <div class="title-page">
+            <h1>Gestion des déchets</h1>
+            <p>Les tournées de ramassage des poubelles ont lieu tous les lundis. En période d’affluence des tournées supplémentaires
+                sont indiquées sur le calendrier semestriel.
+            </p>
+            <a href="https://www.iledebrehat.fr/wp-content/uploads/2021/06/CALENDRIER-OM-2021-2.pdf"> Calendrier des collectes des déchets 2nd semestre 2021</a>
+        </div>
+      </div>
+
+      <div class="intro">
+
+
+      </div>
+
+    <div class="content-droit">
+
+        <div class="title-content">
+          <h2>Compost</h2>
+        </div>
+        <div class="contenue">
+            <div class="paragraphe">
+                <p>Le compost : la commune organise une nouvelle campagne de composteurs en 2021.</p>
+                <a href="https://www.iledebrehat.fr/services/formalites-administratives/tarifs-communaux-bis/#dechets">
+                    <button class="btn btn-success">
+                        Tarifs composteurs
+                    </button>
+                </a>
+                <p>Pour réserver votre composteur (400L ou 600 L), veuillez prendre contact avec la mairie :</p>
+                <a href="tel:+33296200036">Téléphone : 02.96.20.00.36</a>
+                <p>Deux composteurs collectifs sont à votre disposition au Chemin Vert et au Gardeno. Pour plus d’information,
+                    vous pouvez interroger les référents compostage : Nadya LAMY, Jérôme SCHULER et René BOUÉ.
+                </p>
+            </div>
+
+            <div class="cadre">
+                <img src="https://imgr.search.brave.com/JUnQK4VemWY4DPn8xzDh9_u2MVGg1ZcvYcao8ch3msc/fit/885/500/ce/1/aHR0cHM6Ly9pbWFn/ZXMubWlkaWxpYnJl/LmZyL2FwaS92MS9p/bWFnZXMvdmlldy81/YjQ3YTEyODNlNDU0/NjcwOTE0Nzk2Mzcv/bGFyZ2UvaW1hZ2Uu/anBn">
+            </div>
+        </div>
+    </div>
+
+    <div class="content-gauche">
+        <div class="title-content">
+            <h2>Encombrants</h2>
+        </div>
+        <div class="contenue">
+            <div class="paragraphe">
+                <p>La collecte des “monstres” a lieu le dernier jeudi des mois de février, avril, juin, septembre, novembre sur
+                    inscription en mairie. Inscrivez vous:
+                </p>
+                <ul>
+                    <li><a href="tel:+33296200036"> Téléphone</a></li>
+                    <li><a href="mailto:iledebrehat@mairie-brehat.fr"> Mail</a></li>
+                </ul>
+
+            </div>
+            <div class="cadre">
+                <img src="assets/src/servicesmunicipaux/gestionsdechets/encombrants.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="content-gauche col-gd-6 col-md-6 col-sd-6">
+            <div class="title-content">
+                <h2>Vidange</h2>
+            </div>
+            <div class="contenue">
+                <div class="paragraphe">
+                    <p>Un service est à votre disposition pour vous en débarrasser :</p>
+                    <a href="https://www.iledebrehat.fr/services/formalites-administratives/tarifs-communaux-bis/#dechets">
+                        <button class="btn btn-success">
+                            Prestation et tarifs
+                        </button>
+                    </a>
+                </div>
+                <div class="cadre">
+                    <div class="paragraphe" style="padding:5%;">
+                        <h3 style="text-align:center;">Le tri</h3>
+                        <p style="text-align:center;">Le tri sélectif (emballage plastique, métalliques, papiers, cartonnettes…) : les déchets recyclables sont à déposer
+                            dans divers points de collecte répartis sur le territoire communal ou en déchèterie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-droit">
+        <div class="title-content">
+            <h2>Ramassage</h2>
+        </div>
+        <div class="contenue">
+            <div class="paragraphe">
+                <p>En raison de la fermeture du chemin communal n° 2 dit le Guerzido, les services municipaux sont dans l’impossibilité
+                    momentanée de procéder au ramassage des ordures ménagères jusqu’à réfection de la chaussée.
+                    En conséquence nous remercions les usagers de déposer les ordures ménagères au point de collecte situé à
+                    l’intersection du petit Guerzido.
+                </p>
+            </div>
+            <div class="cadre">
+                <img src="assets/src/servicesmunicipaux/gestionsdechets/camionPoub.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="title-page">
+        <h1>Déchetterie</h1>
+    </div>
+    <div class="paragraphe">
+        <h3>Règlement</h3>
+        <p>
+            Avis aux utilisateurs de la déchetterie : Nous vous invitons à trier et à déposer vos rebuts dans les différents
+            boxes, containers mis à votre disposition et  signalés par une pancarte. Vous pouvez déposer : les déchets d’équipements
+            électriques et électroniques (électro-ménagers…) , la ferraille, le verre, les huiles de vidange, le bois, les bidons,
+            les piles, les pneus, les batteries, les aérosols, les fusées de détresse, la peinture, les cartons.Pour les gravats
+            contactez l’agent municipal lors de sa présence pendant les heures d’ouverture de la déchetterie ou la mairie pour
+            prendre rendez-vous.Nous comptons sur vous pour respecter ces nouvelles dispositions, ainsi que les horaires.
+            En effet, nous n’accepterons plus que des objets soient laissés devant la porte, sous peine de poursuites. Nous
+            vous en remercions.A votre disposition, différents services vous sont proposés par la mairie :
+        </p>
+        <ul>
+            <li>Remorque</li>
+            <li>Big-Bag</li>
+            <li>Caisson</li>
+        </ul>
+        <a href="https://www.iledebrehat.fr/services/formalites-administratives/tarifs-communaux-bis/#dechets">
+            <button class="btn btn-success">Tarifs des services</button>
+        </a>
+        <p>Pour info : Les déchets sont traités par le <a href="https://www.valorys.com/fr">SMITRED Ouest d’Armor</a></p>
+    </div>
+    <div class="content-gauche">
+        <div class="title-content">
+            <h2>Horaires</h2>
+        </div>
+        <div class="contenue">
+            <div class="paragraphe">
+                <h4> Du 1er juillet au 31 août</h4>
+                <ul>
+                    <li><i class="far fa-calendar-alt"></i><b>Horaires d’ouverture pour les particuliers :</b> Le mardi, jeudi, vendredi et
+                        le dernier samedi du mois de 13 H 45 à 16 H 15
+                    </li>
+                    <li><i class="far fa-calendar-alt"></i><b>Horaires d’ouverture pour les professionnels :</b> Le mercredi de 13 H 45 à
+                        16 H 15
+                    </li>
+                </ul>
+                <h4>Du 1er septembre au 30 juin</h4>
+                <ul>
+                    <li><i class="far fa-calendar-alt"></i><b>Horaires d’ouverture pour les particuliers :</b> Le jeudi et  le dernier
+                        samedi du mois de 13 H 45 à 16 H 15
+                    </li>
+                    <li><i class="far fa-calendar-alt"></i><b>Horaires d’ouverture pour les professionnels :</b> Le mercredi de 13 H 45
+                        à 16 H 15
+                    </li>
+                </ul>
+            </div>
+            <div class="cadre">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d464.12509096992625!2d-3.002336348874294!3d48.84890422452259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48121188d0e80af1%3A0x5e96ef9bfabe935d!2zRMOpY2jDqHRlcmllIGRlIGwnw65sZSBkZSBCcsOpaGF0!5e0!3m2!1sfr!2sfr!4v1635606792816!5m2!1sfr!2sfr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- END Menu municipalite -->
+
+
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

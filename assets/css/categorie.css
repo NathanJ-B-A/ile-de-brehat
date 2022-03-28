@@ -1,0 +1,136 @@
+
+.banner-top{
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: bottom;
+  padding-top: 14%;
+}
+
+/*TITRE MUNICIPALITE*/
+.title-page{
+  background-color: white; /* a changer */
+  width: 40%;
+  padding: 2%;
+  margin-left: 30%;
+  text-align: center;
+}
+
+h1{
+  font-size: 3.5em;
+}
+
+/* END TITRE MUNICIPALITE*/
+
+.list-sub-page{
+  background-color: white;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10%;
+
+}
+
+.col {
+  height: 30%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.card-sub-page{
+  display: flex;
+  flex-direction: column;
+  border : 0.1em solid rgba(0, 0, 0, .3);
+  border-radius: 2%;
+  width: 80%;
+  height: 25%;
+  margin: auto;
+}
+
+.card-sub-page .img, .card-sub-page .content{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.card-sub-page:hover .title{
+  animation: card-text-scale-anim-in 0.5s forwards;
+}
+
+.card-sub-page:hover .img {
+  animation: card-img-scale-anim-in 0.5s forwards;
+}
+
+.card-sub-page:hover .img img{
+  animation: card-img-border-anim-in 0.5s forwards;
+}
+
+.card-sub-page .img {
+  height: 30%;
+  margin-top: 2.5%;
+}
+
+.card-sub-page .img img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 2% 2% 2% 2%;
+}
+
+.card-sub-page .content{
+  margin-bottom: 2.5%;
+}
+
+.card-sub-page .title{
+  font-size: 1.75em;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, .3);
+}
+
+.card-sub-page .content button{
+  width: 100%;
+  background-color: rgba(0, 153, 117, 0);
+  border-color: rgba(0, 0, 0, .3);
+  color: rgba(0, 153, 117, 1);
+}
+
+.card-sub-page .content button:hover{
+  background-color: rgba(0, 153, 117, 1);
+  border-color: rgba(0, 153, 117, 1);
+  color: white;
+}
+
+.card-sub-page .img img, .card-sub-page .title {
+  margin-bottom: 2%;
+}
+
+@keyframes card-text-scale-anim-in {
+  From {
+		transform: scale(1);
+    color: rgba(0, 0, 0, .3);
+	}
+	To {
+    transform: scale(1.05);
+    color: black;
+	}
+}
+
+@keyframes card-img-scale-anim-in {
+  From {
+	   margin-top: 2.5%;
+     margin-right: 2.5%;
+     margin-left: 2.5%;
+	}
+	To {
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+	}
+}
+
+@keyframes card-img-border-anim-in {
+  From {
+	   border-radius: 2% 2% 2% 2%;
+	}
+	To {
+    border-radius: 2% 2% 0% 0%;
+	}
+}

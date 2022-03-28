@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Santé</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/categorie.css">
+    <link rel="stylesheet" href="assets/css/sub-page.css">
+    <link rel="stylesheet" href="assets/css/sante.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light navbar-expand-md Topbar">
+      <div class="container">
+          <a class="navbar-brand" href="index.html" id="Logo">
+          <img src="assets/src/LOGO.png">
+      </a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Topbar_BOX">
+              <span class="visually-hidden">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Topbar_BOX">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link active" href="municipalite.html">Municipalité</a></li>
+                  <li class="nav-item"><a class="nav-link" href="servicesmunicipaux.html">Services Municipaux</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activitesetdecouverte.html">Activité &amp; Découverte</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".Topbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+      });
+
+    $(document).ready(function(){
+      $(window).scroll(function(){
+      	var scroll = $(window).scrollTop();
+    	  if (scroll > 75) {
+    	    $(".nav-link").css("color" , "black");
+    	  }
+
+    	  else{
+    		  $(".nav-link").css("color" , "white");
+    	  }
+      })
+    })
+    </script>
+
+    <!-- Menu municipalite -->
+
+    <section class="page-content">
+
+        <div class="banner-top" style="background-image:url('assets/src/servicesmunicipaux/servicessante.jpg');">
+            <div class="title-page">
+                <h1>La santé sur l'île de Bréhat</h1>
+            </div>
+        </div>
+
+
+        <div class="content-droit">
+            <div class="title-content">
+                <h2>Docteur Yves Trimaille</h2>
+            </div>
+            <div class="contenue">
+                <div class="paragraphe docteur">
+                    <h4> Horaires de consultation</h4>
+                    <ul>
+                        <li>10h – 12h tous les jours sauf le dimanche</li>
+                        <li>17h – 18h tous les jours sauf le samedi et le dimanche</li>
+                    </ul>
+                    <h4> Contact et plan</h4>
+                    <ul>
+                        <li><a href="tel:+33296200951"> Téléphone</a></li>
+                        <li><a href="mailto:cabinetmedicalbrehat@orange.fr"> Mail</a></li>
+                    </ul>
+                </div>
+                <div class="cadre">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d705.0554663611221!2d-2.9976200425154214!3d48.84625801069692!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d48.8464695!2d-2.9977530999999997!4m5!1s0x48120ffd48454b05%3A0x40ca5cd36e639e0!2zw45sZS1kZS1CcsOpaGF0!3m2!1d48.846084999999995!2d-2.999939!5e1!3m2!1sfr!2sfr!4v1635607506086!5m2!1sfr!2sfr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-gauche">
+            <div class="title-content">
+                <h2>EHPAD Résidence Kreiz Ar Mor</h2>
+            </div>
+            <div class="contenue">
+                <div class="paragraphe">
+                    <p>Située dans la ville de ILE DE BREHAT, la maison de retraite RESIDENCE KREIZ AR MOR est un EHPAD
+                        (établissement d‘hébergement pour personnes âgées dépendantes) public. Cet EHPAD ne dispose pas d‘une
+                        unité Alzheimer.
+                    </p>
+                    <p><b>Gestionnaire : </b> Centre Hospitalier Paimpol</p>
+                    <h3><b>Renseignements</b></h3>
+                    <ul>
+                        <li><a href="https://ch-paimpol.com/ehpad-kreiz-armor/">Hôpital de Paimpol</a></li>
+                        <li><a href="www.pour-les-personnes-agees.gouv.fr">www.pour-les-personnes-agees.gouv.fr</a></li>
+                    </ul>
+                </div>
+                <div class="cadre">
+                    <img src="assets/src/servicesmunicipaux/servicessante/maisonRetraite.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="content-droit">
+            <div class="title-content">
+                <h2>Cellule Covid</h2>
+            </div>
+            <div class="contenue">
+                <div class="paragraphe">
+                    <p>La cellule covid se réunit chaque samedi pour faire le point sur l’évolution de la situation sanitaire et informer
+                        les habitants. <br> <b>Composition :</b>
+                    </p>
+                    <ul>
+                        <li>Olivier CARRÉ, maire</li>
+                        <li>Gabrielle COJEAN-PRIGENT, 1ère adjointe</li>
+                        <li>Yves TRIMAILLE, médecin</li>
+                        <li>Pascal GUEZOU, Chef de centre</li>
+                        <li>Antoine TARTAULT, pompier au SDIS 22 et entrepreneur</li>
+                    </ul>
+                    <h3>Actualités</h3>
+                    <div class="vaccin">
+                        <a href="https://www.iledebrehat.fr/actualites/covid-19/">
+                            <button class="btn btn-success">COVID 19</button>
+                        </a>
+                        <h4><b><a href="https://www.iledebrehat.fr/covid-19/seance-de-vaccination-3eme-dose/">Séance de vaccination 3ème dose</a></b></h4>
+                        <p>Mis à jour le 21/10/2021</p>
+                        <a href="https://www.iledebrehat.fr/covid-19/seance-de-vaccination-3eme-dose/">
+                            <button class="btn btn-success">EN SAVOIR PLUS</button>
+                        </a>
+                    </div>
+                    <h3>Comptes-Rendus</h3>
+                    <ul>
+                        <li><a href="https://www.iledebrehat.fr/wp-content/uploads/2021/01/compte-rendu-cellule-Covid-du-16-janvier-2021.pdf">Compte-rendu cellule Covid du 16 janvier 2021</a></li>
+                        <li><a href="https://www.iledebrehat.fr/wp-content/uploads/2021/01/Cellule-Covid-du-09-01-2021-Google-Docs.pdf">Compte-rendu cellule Covid du 09 janvier 2021</a></li>
+                    </ul>
+                </div>
+                <div class="cadre">
+                    <img src="assets/src/servicesmunicipaux/servicessante/spikeProt.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="content-gauche">
+            <div class="title-content">
+                <h2>Véhicule sanitaire léger</h2>
+            </div>
+            <div class="contenue">
+                <div class="paragraphe">
+                    <p>Transport de personnes pour rendez-vous médicaux.
+                        Les frais de transports peuvent être remboursés sur présentation d’un bon de transport médical.
+                    </p>
+                    <a href="https://www.iledebrehat.fr/services/formalites-administratives/tarifs-communaux-bis/#vsl">
+                        <button class="btn btn-success">Prestations et tarifs</button>
+                    </a>
+                    <p>Information et réservation en mairie :</p>
+                    <a href="tel:+33296200036"> Téléphone : 02.96.20.00.36</a>
+                </div>
+                <div class="cadre">
+                    <img src="assets/src/servicesmunicipaux/servicessante/vsl.jpg">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer id="footer_BOX">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 mx-auto">
+                    <ul>
+                        <li class="icone">
+                            <a href="https://www.facebook.com/Mairie-de-lile-de-Br%C3%A9hat-109476447520454/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                         </li>
+                        <li class="icone">
+                            <a href="https://twitter.com/ile_de_brehat?lang=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="icone">
+                            <a href="https://www.instagram.com/ile_de_brehat/?hl=fr">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                <p class="copyright text-muted text-center">Copyright © GRP203 - PJS3 |2021| Web Design by Samsam</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h4{
+  font-size: 120%;
+  font-weight: bolder;
+}
+
+/* ELUS */
+.elu {
+  display: inline-flex;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  width: 80%;
+}
+
+.elu img{
+  max-width: 50%;
+}
+
+.elu .info{
+  width: 100%;
+  text-align: center;
+  padding-top: 20%;
+}
+/* ELUS (END) */
